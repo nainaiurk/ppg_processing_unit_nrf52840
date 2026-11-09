@@ -1,0 +1,85 @@
+(footprint "DSK-RADIAL-6.8MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DSK-621 - 6.8mm Radial package for SuperCapacitor\n\nSpecifications:\n\n• Pin count: 2\n• Pin pitch: 10.15mm\n• Area: 6.8mm x 11.7mm\n\nDatasheet referenced for footprint")
+	(property "Reference" "REF**"
+		(at 0 6.445 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66b67f6a-0921-46ec-a9a6-43f919a7f8a7")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+		)
+	)
+	(property "Value" "DSK-RADIAL-6.8MM"
+		(at 0 -7.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ac6c8ba7-552d-4e96-a8b8-e21ac33d6cf0")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3667012-e2d7-4667-b642-253ee0b62a3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38999e64-9f0b-4c19-a724-4778fa8f01dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.4 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f59effb4-9351-4b16-b55c-c8c5ce006a85")
+	)
+	(pad "+" smd rect
+		(at 0 -5.15)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "53c02c6b-0dc9-4bbc-8ac4-393b3b546235")
+	)
+	(pad "-" smd rect
+		(at 0 5)
+		(size 4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "0b0f9c5f-50c0-4bf4-8b21-5b7441d6425f")
+	)
+	(embedded_fonts no)
+)
