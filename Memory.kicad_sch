@@ -1085,6 +1085,12 @@
 		(uuid "ff4758bb-1451-42d6-af55-aeb50e18ac37")
 	)
 	(junction
+		(at 152.4 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca26786c-d67b-460d-8332-e62a7977402c")
+	)
+	(junction
 		(at 111.76 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -26941,6 +26947,80 @@
 			(project "PPG_Processing_Unit"
 				(path "/950da8ef-85b1-42e7-92e0-6703c50222a0/bc5550b7-301d-4356-882e-a8ca5f45de92"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Conductor-altium-import:3V0_CIRCLE")
+		(at 152.4 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50d373f9-1ae0-4ea9-935e-be28c1caef67")
+		(property "Reference" "#PWR017"
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V0"
+			(at 152.4 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b1191097-1081-47ef-876b-5ab3f2888e7c")
+		)
+		(instances
+			(project "PPG_Processing_Unit"
+				(path "/950da8ef-85b1-42e7-92e0-6703c50222a0/bc5550b7-301d-4356-882e-a8ca5f45de92"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

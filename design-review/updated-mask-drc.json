@@ -1,0 +1,1867 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T14:42:59",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard",
+            "key": "malformed_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "key": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "key": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "key": "silk_edge_clearance"
+        },
+        {
+            "description": "Text height out of range",
+            "key": "text_height"
+        },
+        {
+            "description": "Text thickness out of range",
+            "key": "text_thickness"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint not found in libraries",
+            "key": "lib_footprint_issues"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "updated-mask.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation ( clearance 0.1000 mm; actual 0.0972 mm)",
+            "items": [
+                {
+                    "description": "Track [/U_MCU/IMU_CS] on B.Cu, length 1.1708 mm",
+                    "pos": {
+                        "x": 118.458375,
+                        "y": 99.666035
+                    },
+                    "uuid": "9f642146-4680-4c3a-b2e3-cfe9b84aa140"
+                },
+                {
+                    "description": "Via [3V0] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 119.111375,
+                        "y": 99.264035
+                    },
+                    "uuid": "ef007ebb-fa6d-4163-b29c-b95229c40d86"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 1 [3V0] of P1 on F.Cu",
+                    "pos": {
+                        "x": 130.474375,
+                        "y": 106.691035
+                    },
+                    "uuid": "0c433200-0388-4dd0-aa72-d4a54dc65856"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 2 [5V] of P1 on F.Cu",
+                    "pos": {
+                        "x": 130.474375,
+                        "y": 109.231035
+                    },
+                    "uuid": "b90f6f66-bf4a-4d12-a6ce-21e266e6a87a"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 3 [/U_MCU/SWDIO] of P1 on F.Cu",
+                    "pos": {
+                        "x": 127.934375,
+                        "y": 106.691035
+                    },
+                    "uuid": "0cd4d172-e298-4951-b726-9baba6b0e8bc"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 4 [/U_MCU/SWCLK] of P1 on F.Cu",
+                    "pos": {
+                        "x": 127.934375,
+                        "y": 109.231035
+                    },
+                    "uuid": "9b696756-f127-40f5-bdf0-4d2f38ddf5f8"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 5 [/U_MCU/SWO] of P1 on F.Cu",
+                    "pos": {
+                        "x": 125.394375,
+                        "y": 106.691035
+                    },
+                    "uuid": "237975ea-412a-4966-838f-a95de5ad2ffe"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 6 [/U_MCU/RESET] of P1 on F.Cu",
+                    "pos": {
+                        "x": 125.394375,
+                        "y": 109.231035
+                    },
+                    "uuid": "4cd6227b-1007-4a47-884f-fef673b30879"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 7 [/U_MCU/GPIO] of P1 on F.Cu",
+                    "pos": {
+                        "x": 122.854375,
+                        "y": 106.691035
+                    },
+                    "uuid": "c031cedc-0bb0-4829-99c9-5af6cba79114"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 8 [GND] of P1 on F.Cu",
+                    "pos": {
+                        "x": 122.854375,
+                        "y": 109.231035
+                    },
+                    "uuid": "1573b2ef-24ff-41ff-a36c-ac2ae5d0d307"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 1 [/U_MCU/MISO] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.278005,
+                        "y": 102.454725
+                    },
+                    "uuid": "c42ed707-0554-4658-8db9-774cd28b9827"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.778005,
+                        "y": 102.454735
+                    },
+                    "uuid": "83f6e77a-48f8-48d2-9bf5-58721291e149"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 3 [GND] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.278005,
+                        "y": 102.454735
+                    },
+                    "uuid": "77941095-30b9-442e-b9db-33c0e23158a5"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 4 [/U_MCU/IMU_INT] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.778005,
+                        "y": 102.454735
+                    },
+                    "uuid": "7141a906-eae6-40fc-beab-7ab9bf90fd0f"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 5 [3V0] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.615505,
+                        "y": 101.792235
+                    },
+                    "uuid": "d6d5415b-c1d3-4943-9aa2-f232099e7bc5"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 6 [GND] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.615505,
+                        "y": 101.292235
+                    },
+                    "uuid": "30ca382b-6ef9-4b8e-943e-0950e6694528"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 7 [GND] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.615505,
+                        "y": 100.792235
+                    },
+                    "uuid": "3870cf5d-796b-43ba-accb-bdf4e961dc4f"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 8 [3V0] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.778005,
+                        "y": 100.129735
+                    },
+                    "uuid": "4f1f42ab-5228-4a67-9a33-23cae1f16487"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 9 [unconnected-(U2-INT2-Pad9)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.278005,
+                        "y": 100.129735
+                    },
+                    "uuid": "edff22b1-cf75-4c68-a6fd-50db41e660be"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 10 [unconnected-(U2-OCS_Aux-Pad10)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.778005,
+                        "y": 100.129735
+                    },
+                    "uuid": "9b8a1941-5223-48ee-baf7-9bdd9c555a54"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 11 [unconnected-(U2-SDO_Aux-Pad11)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.278005,
+                        "y": 100.129735
+                    },
+                    "uuid": "2a0044e9-c186-4637-8be4-c3f0e3acedf1"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 12 [/U_MCU/IMU_CS] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.440505,
+                        "y": 100.792235
+                    },
+                    "uuid": "e3bb56a7-ce31-4866-8405-9d5762cecb9b"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 13 [/U_MCU/SCK] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.440505,
+                        "y": 101.292235
+                    },
+                    "uuid": "38c23309-ac0c-4a69-826c-9f0a2b03f429"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "Pad 14 [/U_MCU/MOSI] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.440505,
+                        "y": 101.792235
+                    },
+                    "uuid": "b8a04ef5-a511-46ad-a2b7-041c0a7158ad"
+                }
+            ],
+            "severity": "error",
+            "type": "padstack"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone 'GND Pour' [GND] on F.Cu, B.Cu and 2 more, priority 0",
+                    "pos": {
+                        "x": 116.630715,
+                        "y": 110.750265
+                    },
+                    "uuid": "57a4b93e-7b6d-4c46-bd3e-0e0fdc73645f"
+                },
+                {
+                    "description": "Pad 56 [GND] of U5 on F.Cu",
+                    "pos": {
+                        "x": 123.779595,
+                        "y": 93.122536
+                    },
+                    "uuid": "81091703-c0b2-40f5-9bcb-e43a24c00421"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone 'GND Pour' [GND] on F.Cu, B.Cu and 2 more, priority 0",
+                    "pos": {
+                        "x": 116.630715,
+                        "y": 110.750265
+                    },
+                    "uuid": "57a4b93e-7b6d-4c46-bd3e-0e0fdc73645f"
+                },
+                {
+                    "description": "Pad 1 [GND] of C16 on B.Cu",
+                    "pos": {
+                        "x": 121.206375,
+                        "y": 99.604035
+                    },
+                    "uuid": "c8f95f4a-ed5d-4df0-bea6-29191d218db2"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone 'GND Pour' [GND] on F.Cu, B.Cu and 2 more, priority 0",
+                    "pos": {
+                        "x": 116.630715,
+                        "y": 110.750265
+                    },
+                    "uuid": "57a4b93e-7b6d-4c46-bd3e-0e0fdc73645f"
+                },
+                {
+                    "description": "Pad 56 [GND] of U5 on F.Cu",
+                    "pos": {
+                        "x": 122.639595,
+                        "y": 96.582534
+                    },
+                    "uuid": "249e1b78-dda4-496b-8a34-7d6eceb68888"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone 'GND Pour' [GND] on F.Cu, B.Cu and 2 more, priority 0",
+                    "pos": {
+                        "x": 116.630715,
+                        "y": 110.750265
+                    },
+                    "uuid": "57a4b93e-7b6d-4c46-bd3e-0e0fdc73645f"
+                },
+                {
+                    "description": "Pad 56 [GND] of U5 on F.Cu",
+                    "pos": {
+                        "x": 121.479595,
+                        "y": 96.582534
+                    },
+                    "uuid": "aec495d8-d9e1-49af-8b52-aab83a163b38"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone 'GND Pour' [GND] on F.Cu, B.Cu and 2 more, priority 0",
+                    "pos": {
+                        "x": 116.630715,
+                        "y": 110.750265
+                    },
+                    "uuid": "57a4b93e-7b6d-4c46-bd3e-0e0fdc73645f"
+                },
+                {
+                    "description": "Pad 4 [GND] of U4 on B.Cu",
+                    "pos": {
+                        "x": 128.334675,
+                        "y": 105.557255
+                    },
+                    "uuid": "238c66cd-66c1-4a48-b5f6-8b94ef1495f3"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone 'GND Pour' [GND] on F.Cu, B.Cu and 2 more, priority 0",
+                    "pos": {
+                        "x": 116.630715,
+                        "y": 110.750265
+                    },
+                    "uuid": "57a4b93e-7b6d-4c46-bd3e-0e0fdc73645f"
+                },
+                {
+                    "description": "Pad 56 [GND] of U5 on F.Cu",
+                    "pos": {
+                        "x": 120.339595,
+                        "y": 95.422535
+                    },
+                    "uuid": "a33dcbe6-5a1a-461e-8cfc-b1011d2f1836"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone 'GND Pour' [GND] on F.Cu, B.Cu and 2 more, priority 0",
+                    "pos": {
+                        "x": 116.630715,
+                        "y": 110.750265
+                    },
+                    "uuid": "57a4b93e-7b6d-4c46-bd3e-0e0fdc73645f"
+                },
+                {
+                    "description": "Pad 57 [GND] of U5 on F.Cu",
+                    "pos": {
+                        "x": 117.709594,
+                        "y": 89.352535
+                    },
+                    "uuid": "74b59f6e-b7c3-475b-958c-56337b211fcb"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone 'GND Pour' [GND] on F.Cu, B.Cu and 2 more, priority 0",
+                    "pos": {
+                        "x": 116.630715,
+                        "y": 110.750265
+                    },
+                    "uuid": "57a4b93e-7b6d-4c46-bd3e-0e0fdc73645f"
+                },
+                {
+                    "description": "Pad 60 [GND] of U5 on F.Cu",
+                    "pos": {
+                        "x": 117.709595,
+                        "y": 86.802535
+                    },
+                    "uuid": "d17a4472-1f91-4bb0-88bd-8a9568db8127"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [/U_MCU/PU_GPIO3] of J3 on B.Cu",
+                    "pos": {
+                        "x": 125.831455,
+                        "y": 98.762945
+                    },
+                    "uuid": "8eaccb0c-8d84-4d2d-93ed-a4884f5b5033"
+                },
+                {
+                    "description": "Pad 4 [/U_MCU/PU_GPIO2] of J3 on B.Cu",
+                    "pos": {
+                        "x": 126.231465,
+                        "y": 98.762945
+                    },
+                    "uuid": "a5b3e7aa-9794-44cd-8215-744e712f8c9f"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 4 [/U_MCU/IMU_INT] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.778005,
+                        "y": 102.454735
+                    },
+                    "uuid": "7141a906-eae6-40fc-beab-7ab9bf90fd0f"
+                },
+                {
+                    "description": "Pad 3 [GND] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.278005,
+                        "y": 102.454735
+                    },
+                    "uuid": "77941095-30b9-442e-b9db-33c0e23158a5"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 3.0500 mm",
+                    "pos": {
+                        "x": 120.534595,
+                        "y": 98.532535
+                    },
+                    "uuid": "cd832d61-c1ce-4f2a-8d91-222e95a7276b"
+                },
+                {
+                    "description": "Pad 27 [unconnected-(U5-GPIO_27/P0.05-Pad27)] of U5 on F.Cu",
+                    "pos": {
+                        "x": 121.059595,
+                        "y": 99.282535
+                    },
+                    "uuid": "8887a841-2c8d-45f4-af4c-1099887490fd"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 4 [/U_MCU/IMU_INT] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.778005,
+                        "y": 102.454735
+                    },
+                    "uuid": "7141a906-eae6-40fc-beab-7ab9bf90fd0f"
+                },
+                {
+                    "description": "Pad 5 [3V0] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.615505,
+                        "y": 101.792235
+                    },
+                    "uuid": "d6d5415b-c1d3-4943-9aa2-f232099e7bc5"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [SYS_PWR] on B.Cu, length 0.7071 mm",
+                    "pos": {
+                        "x": 128.964595,
+                        "y": 105.557255
+                    },
+                    "uuid": "eeeb6e07-f93a-45aa-8362-ce69534d65a7"
+                },
+                {
+                    "description": "Pad 4 [GND] of U4 on B.Cu",
+                    "pos": {
+                        "x": 128.334675,
+                        "y": 105.557255
+                    },
+                    "uuid": "238c66cd-66c1-4a48-b5f6-8b94ef1495f3"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 3.0500 mm",
+                    "pos": {
+                        "x": 120.534595,
+                        "y": 98.532535
+                    },
+                    "uuid": "cd832d61-c1ce-4f2a-8d91-222e95a7276b"
+                },
+                {
+                    "description": "Pad 28 [unconnected-(U5-GPIO_28/P0.09/NFC1-Pad28)] of U5 on F.Cu",
+                    "pos": {
+                        "x": 122.059595,
+                        "y": 99.282535
+                    },
+                    "uuid": "e918e6c1-70a2-4ddc-ac8e-0943dd3dceed"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 3.0500 mm",
+                    "pos": {
+                        "x": 120.534595,
+                        "y": 98.532535
+                    },
+                    "uuid": "cd832d61-c1ce-4f2a-8d91-222e95a7276b"
+                },
+                {
+                    "description": "Pad 29 [unconnected-(U5-GPIO_29/P0.10/NFC2-Pad29)] of U5 on F.Cu",
+                    "pos": {
+                        "x": 123.059595,
+                        "y": 99.282535
+                    },
+                    "uuid": "996bba97-f3f4-4107-8c07-1422350cc1ef"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/U_MCU/IMU_CS] on B.Cu, length 0.6746 mm",
+                    "pos": {
+                        "x": 117.981375,
+                        "y": 99.189035
+                    },
+                    "uuid": "18786eb3-c763-46cc-b0b7-ed0f17f1fac4"
+                },
+                {
+                    "description": "Pad 9 [unconnected-(U2-INT2-Pad9)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.278005,
+                        "y": 100.129735
+                    },
+                    "uuid": "edff22b1-cf75-4c68-a6fd-50db41e660be"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/U_MCU/IMU_CS] on B.Cu, length 1.1708 mm",
+                    "pos": {
+                        "x": 118.458375,
+                        "y": 99.666035
+                    },
+                    "uuid": "9f642146-4680-4c3a-b2e3-cfe9b84aa140"
+                },
+                {
+                    "description": "Pad 10 [unconnected-(U2-OCS_Aux-Pad10)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.778005,
+                        "y": 100.129735
+                    },
+                    "uuid": "9b8a1941-5223-48ee-baf7-9bdd9c555a54"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/U_MCU/IMU_CS] on B.Cu, length 1.1708 mm",
+                    "pos": {
+                        "x": 118.458375,
+                        "y": 99.666035
+                    },
+                    "uuid": "9f642146-4680-4c3a-b2e3-cfe9b84aa140"
+                },
+                {
+                    "description": "Pad 11 [unconnected-(U2-SDO_Aux-Pad11)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.278005,
+                        "y": 100.129735
+                    },
+                    "uuid": "2a0044e9-c186-4637-8be4-c3f0e3acedf1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/U_MCU/IMU_CS] on B.Cu, length 1.1708 mm",
+                    "pos": {
+                        "x": 118.458375,
+                        "y": 99.666035
+                    },
+                    "uuid": "9f642146-4680-4c3a-b2e3-cfe9b84aa140"
+                },
+                {
+                    "description": "Pad 9 [unconnected-(U2-INT2-Pad9)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.278005,
+                        "y": 100.129735
+                    },
+                    "uuid": "edff22b1-cf75-4c68-a6fd-50db41e660be"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 5 [3V0] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.615505,
+                        "y": 101.792235
+                    },
+                    "uuid": "d6d5415b-c1d3-4943-9aa2-f232099e7bc5"
+                },
+                {
+                    "description": "Pad 6 [GND] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.615505,
+                        "y": 101.292235
+                    },
+                    "uuid": "30ca382b-6ef9-4b8e-943e-0950e6694528"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 3 [GND] of J3 on B.Cu",
+                    "pos": {
+                        "x": 126.231465,
+                        "y": 95.662945
+                    },
+                    "uuid": "5483b0fa-5ad2-4d5c-aa33-eb039ec80b8c"
+                },
+                {
+                    "description": "Pad 1 [3V0] of J3 on B.Cu",
+                    "pos": {
+                        "x": 125.831455,
+                        "y": 95.662945
+                    },
+                    "uuid": "a9a7c452-bf93-4fb2-bd52-1e903ac875e1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Via [/U_MCU/BATT_CE] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 117.078454,
+                        "y": 97.165435
+                    },
+                    "uuid": "a1131233-8b40-4bed-94a0-ff5808c7e211"
+                },
+                {
+                    "description": "Pad 1 [GND] of C5 on B.Cu",
+                    "pos": {
+                        "x": 117.246375,
+                        "y": 97.744035
+                    },
+                    "uuid": "939c11e6-e79e-4389-801f-ab32bee1fad7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 3 [GND] of J3 on B.Cu",
+                    "pos": {
+                        "x": 126.231465,
+                        "y": 95.662945
+                    },
+                    "uuid": "5483b0fa-5ad2-4d5c-aa33-eb039ec80b8c"
+                },
+                {
+                    "description": "Pad 5 [/U_MCU/SCL] of J3 on B.Cu",
+                    "pos": {
+                        "x": 126.631465,
+                        "y": 95.662945
+                    },
+                    "uuid": "9017c706-a3f0-413c-9112-0615232a00ce"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/U_MCU/MOSI] on B.Cu, length 1.9050 mm",
+                    "pos": {
+                        "x": 120.936375,
+                        "y": 98.904035
+                    },
+                    "uuid": "240c40ee-72fd-419e-bf6d-48d8e0331ac5"
+                },
+                {
+                    "description": "Pad 6 [/U_MCU/MISO] of U6 on B.Cu",
+                    "pos": {
+                        "x": 121.511375,
+                        "y": 98.024035
+                    },
+                    "uuid": "880ed6f7-0938-4337-b969-b51215d49578"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/U_MCU/MOSI] on B.Cu, length 0.2192 mm",
+                    "pos": {
+                        "x": 120.781375,
+                        "y": 99.059035
+                    },
+                    "uuid": "9f2c31c1-9a14-420c-b3c5-8f5894ba3bd1"
+                },
+                {
+                    "description": "Pad 6 [/U_MCU/MISO] of U6 on B.Cu",
+                    "pos": {
+                        "x": 121.511375,
+                        "y": 98.024035
+                    },
+                    "uuid": "880ed6f7-0938-4337-b969-b51215d49578"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 4 [/U_MCU/PU_GPIO2] of J3 on B.Cu",
+                    "pos": {
+                        "x": 126.231465,
+                        "y": 98.762945
+                    },
+                    "uuid": "a5b3e7aa-9794-44cd-8215-744e712f8c9f"
+                },
+                {
+                    "description": "Pad 6 [/U_MCU/PU_GPIO1] of J3 on B.Cu",
+                    "pos": {
+                        "x": 126.631465,
+                        "y": 98.762945
+                    },
+                    "uuid": "54e5d6dd-81bb-469b-a219-885586e7a708"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/U_MCU/MOSI] on B.Cu, length 1.4700 mm",
+                    "pos": {
+                        "x": 120.781375,
+                        "y": 100.529035
+                    },
+                    "uuid": "cab55282-3030-47ae-a8f7-40561c916bfb"
+                },
+                {
+                    "description": "Pad 1 [GND] of C16 on B.Cu",
+                    "pos": {
+                        "x": 121.206375,
+                        "y": 99.604035
+                    },
+                    "uuid": "c8f95f4a-ed5d-4df0-bea6-29191d218db2"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 7 [GND] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.615505,
+                        "y": 100.792235
+                    },
+                    "uuid": "3870cf5d-796b-43ba-accb-bdf4e961dc4f"
+                },
+                {
+                    "description": "Pad 8 [3V0] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.778005,
+                        "y": 100.129735
+                    },
+                    "uuid": "4f1f42ab-5228-4a67-9a33-23cae1f16487"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 2.3200 mm",
+                    "pos": {
+                        "x": 125.846375,
+                        "y": 89.879035
+                    },
+                    "uuid": "84182d75-d09f-45d1-96f1-bcb1e99ffc68"
+                },
+                {
+                    "description": "Pad 1 [/U_MCU/SWCLK] of D5 on B.Cu",
+                    "pos": {
+                        "x": 124.926375,
+                        "y": 90.279035
+                    },
+                    "uuid": "0c0a5a1d-d23a-40e9-a6c5-f7dfadb34fb2"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Via [/U_MCU/PU_GPIO3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 123.581375,
+                        "y": 97.223933
+                    },
+                    "uuid": "48ea79c4-0d78-411b-bc8d-34946dd28ef2"
+                },
+                {
+                    "description": "Pad 46 [/U_MCU/SDA] of U5 on F.Cu",
+                    "pos": {
+                        "x": 123.709595,
+                        "y": 97.902535
+                    },
+                    "uuid": "c66bd6a4-8967-4536-8d2f-eab5e3db7b87"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 5 [/U_MCU/SCL] of J3 on B.Cu",
+                    "pos": {
+                        "x": 126.631465,
+                        "y": 95.662945
+                    },
+                    "uuid": "9017c706-a3f0-413c-9112-0615232a00ce"
+                },
+                {
+                    "description": "Pad 7 [/U_MCU/SDA] of J3 on B.Cu",
+                    "pos": {
+                        "x": 127.031465,
+                        "y": 95.662945
+                    },
+                    "uuid": "cf6acf46-68d8-4079-8a61-3b92eb47ddf9"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/U_MCU/PU_GPIO3] on B.Cu, length 1.3336 mm",
+                    "pos": {
+                        "x": 124.224085,
+                        "y": 98.286745
+                    },
+                    "uuid": "b2fb8095-2525-404a-b5eb-4631a3478f5c"
+                },
+                {
+                    "description": "Pad MP2 [unconnected-(J3-PadMP2)] of J3 on B.Cu",
+                    "pos": {
+                        "x": 124.881465,
+                        "y": 98.712945
+                    },
+                    "uuid": "8e53dc6d-3db3-4ea0-bca1-b612a6306980"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 8 [3V0] of U2 on B.Cu",
+                    "pos": {
+                        "x": 117.778005,
+                        "y": 100.129735
+                    },
+                    "uuid": "4f1f42ab-5228-4a67-9a33-23cae1f16487"
+                },
+                {
+                    "description": "Pad 9 [unconnected-(U2-INT2-Pad9)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.278005,
+                        "y": 100.129735
+                    },
+                    "uuid": "edff22b1-cf75-4c68-a6fd-50db41e660be"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 9 [unconnected-(U2-INT2-Pad9)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.278005,
+                        "y": 100.129735
+                    },
+                    "uuid": "edff22b1-cf75-4c68-a6fd-50db41e660be"
+                },
+                {
+                    "description": "Pad 10 [unconnected-(U2-OCS_Aux-Pad10)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.778005,
+                        "y": 100.129735
+                    },
+                    "uuid": "9b8a1941-5223-48ee-baf7-9bdd9c555a54"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 6 [/U_MCU/PU_GPIO1] of J3 on B.Cu",
+                    "pos": {
+                        "x": 126.631465,
+                        "y": 98.762945
+                    },
+                    "uuid": "54e5d6dd-81bb-469b-a219-885586e7a708"
+                },
+                {
+                    "description": "Pad 8 [/U_MCU/PU_GPIO0] of J3 on B.Cu",
+                    "pos": {
+                        "x": 127.031465,
+                        "y": 98.762945
+                    },
+                    "uuid": "9fe651c2-3772-4337-8aa2-eab0ea8e24d1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 7 [/U_MCU/SDA] of J3 on B.Cu",
+                    "pos": {
+                        "x": 127.031465,
+                        "y": 95.662945
+                    },
+                    "uuid": "cf6acf46-68d8-4079-8a61-3b92eb47ddf9"
+                },
+                {
+                    "description": "Pad 9 [/U_MCU/PU_ANALOG] of J3 on B.Cu",
+                    "pos": {
+                        "x": 127.431465,
+                        "y": 95.662945
+                    },
+                    "uuid": "99ed1a35-4936-4f32-9d6d-9d2ffbe4d84b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 10 [unconnected-(U2-OCS_Aux-Pad10)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.778005,
+                        "y": 100.129735
+                    },
+                    "uuid": "9b8a1941-5223-48ee-baf7-9bdd9c555a54"
+                },
+                {
+                    "description": "Pad 11 [unconnected-(U2-SDO_Aux-Pad11)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.278005,
+                        "y": 100.129735
+                    },
+                    "uuid": "2a0044e9-c186-4637-8be4-c3f0e3acedf1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2' [unconnected-(SW1-Pad2')] of SW1 on F.Cu",
+                    "pos": {
+                        "x": 128.516375,
+                        "y": 112.839035
+                    },
+                    "uuid": "8df1f8d9-92c3-49bd-90cc-3157772c7429"
+                },
+                {
+                    "description": "Teardrop [/U_MCU/USER_SWITCH] on F.Cu",
+                    "pos": {
+                        "x": 129.533724,
+                        "y": 112.344147
+                    },
+                    "uuid": "66eca65a-997e-01ba-210b-a54f27c947fa"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 8 [/U_MCU/PU_GPIO0] of J3 on B.Cu",
+                    "pos": {
+                        "x": 127.031465,
+                        "y": 98.762945
+                    },
+                    "uuid": "9fe651c2-3772-4337-8aa2-eab0ea8e24d1"
+                },
+                {
+                    "description": "Pad 10 [SYS_PWR] of J3 on B.Cu",
+                    "pos": {
+                        "x": 127.431465,
+                        "y": 98.762945
+                    },
+                    "uuid": "2485f089-67c0-4955-b3da-45d1b0e191bd"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 11 [unconnected-(U2-SDO_Aux-Pad11)] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.278005,
+                        "y": 100.129735
+                    },
+                    "uuid": "2a0044e9-c186-4637-8be4-c3f0e3acedf1"
+                },
+                {
+                    "description": "Pad 12 [/U_MCU/IMU_CS] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.440505,
+                        "y": 100.792235
+                    },
+                    "uuid": "e3bb56a7-ce31-4866-8405-9d5762cecb9b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 12 [/U_MCU/IMU_CS] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.440505,
+                        "y": 100.792235
+                    },
+                    "uuid": "e3bb56a7-ce31-4866-8405-9d5762cecb9b"
+                },
+                {
+                    "description": "Pad 13 [/U_MCU/SCK] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.440505,
+                        "y": 101.292235
+                    },
+                    "uuid": "38c23309-ac0c-4a69-826c-9f0a2b03f429"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 13 [/U_MCU/SCK] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.440505,
+                        "y": 101.292235
+                    },
+                    "uuid": "38c23309-ac0c-4a69-826c-9f0a2b03f429"
+                },
+                {
+                    "description": "Pad 14 [/U_MCU/MOSI] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.440505,
+                        "y": 101.792235
+                    },
+                    "uuid": "b8a04ef5-a511-46ad-a2b7-041c0a7158ad"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 14 [/U_MCU/MOSI] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.440505,
+                        "y": 101.792235
+                    },
+                    "uuid": "b8a04ef5-a511-46ad-a2b7-041c0a7158ad"
+                },
+                {
+                    "description": "Pad 1 [/U_MCU/MISO] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.278005,
+                        "y": 102.454725
+                    },
+                    "uuid": "c42ed707-0554-4658-8db9-774cd28b9827"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of U4 on B.Cu",
+                    "pos": {
+                        "x": 129.114675,
+                        "y": 104.557255
+                    },
+                    "uuid": "4e30e16f-c7c3-4a20-b5e9-59e6d9beab93"
+                },
+                {
+                    "description": "Pad 2 [Net-(U4-SW)] of U4 on B.Cu",
+                    "pos": {
+                        "x": 129.114675,
+                        "y": 105.057255
+                    },
+                    "uuid": "c59dfdff-e0ff-45a8-93ba-5f78c90dec0d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U4-SW)] of U4 on B.Cu",
+                    "pos": {
+                        "x": 129.114675,
+                        "y": 105.057255
+                    },
+                    "uuid": "c59dfdff-e0ff-45a8-93ba-5f78c90dec0d"
+                },
+                {
+                    "description": "Pad 3 [SYS_PWR] of U4 on B.Cu",
+                    "pos": {
+                        "x": 129.114675,
+                        "y": 105.557255
+                    },
+                    "uuid": "9d0d8c7d-c228-46a6-83dc-14e62fad4959"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 4 [GND] of U4 on B.Cu",
+                    "pos": {
+                        "x": 128.334675,
+                        "y": 105.557255
+                    },
+                    "uuid": "238c66cd-66c1-4a48-b5f6-8b94ef1495f3"
+                },
+                {
+                    "description": "Pad 5 [SYS_PWR] of U4 on B.Cu",
+                    "pos": {
+                        "x": 128.334675,
+                        "y": 105.057255
+                    },
+                    "uuid": "7c3ee00b-b3e5-496e-b893-25fb737ec438"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 5 [SYS_PWR] of U4 on B.Cu",
+                    "pos": {
+                        "x": 128.334675,
+                        "y": 105.057255
+                    },
+                    "uuid": "7c3ee00b-b3e5-496e-b893-25fb737ec438"
+                },
+                {
+                    "description": "Pad 6 [3V0] of U4 on B.Cu",
+                    "pos": {
+                        "x": 128.334675,
+                        "y": 104.557255
+                    },
+                    "uuid": "f616f079-5964-4a3d-a6f3-9b74fb16e52b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U3-TS)] of U3 on B.Cu",
+                    "pos": {
+                        "x": 135.387525,
+                        "y": 104.963895
+                    },
+                    "uuid": "713f9736-d84b-4c2c-991a-a9e6a32573b2"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C9-Pad2)] of U3 on B.Cu",
+                    "pos": {
+                        "x": 135.387525,
+                        "y": 105.463905
+                    },
+                    "uuid": "21912e32-9958-4113-b6f8-34c72891055a"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(C9-Pad2)] of U3 on B.Cu",
+                    "pos": {
+                        "x": 135.387525,
+                        "y": 105.963895
+                    },
+                    "uuid": "5bf7fe1e-534c-47b3-8bb2-0bb3c2794625"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 4 [/U_MCU/BATT_CE] of U3 on B.Cu",
+                    "pos": {
+                        "x": 135.387515,
+                        "y": 106.463905
+                    },
+                    "uuid": "99cfefff-381c-4c7c-a530-0977bf789ba1"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 5 [SYS_PWR] of U3 on B.Cu",
+                    "pos": {
+                        "x": 134.702515,
+                        "y": 107.148905
+                    },
+                    "uuid": "8bcfc29f-6b48-4f8e-9d30-269f0d02c019"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 7 [unconnected-(U3-~{PGOOD}-Pad7)] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.702525,
+                        "y": 107.148905
+                    },
+                    "uuid": "b3505f3a-c244-4c84-8fc8-a26eedecac61"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 7 [unconnected-(U3-~{PGOOD}-Pad7)] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.702525,
+                        "y": 107.148905
+                    },
+                    "uuid": "b3505f3a-c244-4c84-8fc8-a26eedecac61"
+                },
+                {
+                    "description": "Teardrop [GND] on B.Cu",
+                    "pos": {
+                        "x": 133.11571,
+                        "y": 106.608176
+                    },
+                    "uuid": "85350eeb-02dc-08f1-0138-626bc94ee93d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 9 [/U_Power/CHG#] of U3 on B.Cu",
+                    "pos": {
+                        "x": 132.517525,
+                        "y": 106.463905
+                    },
+                    "uuid": "cf96dcbe-338a-4a86-925d-a36a0f532d1f"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 10 [SYS_PWR] of U3 on B.Cu",
+                    "pos": {
+                        "x": 132.517515,
+                        "y": 105.963895
+                    },
+                    "uuid": "49c835ae-e226-46ec-b852-55083905b0aa"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 11 [SYS_PWR] of U3 on B.Cu",
+                    "pos": {
+                        "x": 132.517515,
+                        "y": 105.463905
+                    },
+                    "uuid": "0400db91-fda1-46ab-9ef4-86351de35540"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 12 [Net-(U3-ILIM)] of U3 on B.Cu",
+                    "pos": {
+                        "x": 132.517525,
+                        "y": 104.963905
+                    },
+                    "uuid": "7bec23c8-4733-42ec-82d1-9afc8611676d"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 13 [5V] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.202525,
+                        "y": 104.278895
+                    },
+                    "uuid": "06fec85e-16e8-4c19-9f5a-2c194f3dd27e"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 14 [unconnected-(U3-TMR-Pad14)] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.702525,
+                        "y": 104.278895
+                    },
+                    "uuid": "20689a61-68c9-41ce-92dd-a1077194ff8e"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [/U_MCU/MISO] of U2 on B.Cu",
+                    "pos": {
+                        "x": 119.278005,
+                        "y": 102.454725
+                    },
+                    "uuid": "c42ed707-0554-4658-8db9-774cd28b9827"
+                },
+                {
+                    "description": "Pad 2 [GND] of U2 on B.Cu",
+                    "pos": {
+                        "x": 118.778005,
+                        "y": 102.454735
+                    },
+                    "uuid": "83f6e77a-48f8-48d2-9bf5-58721291e149"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 15 [unconnected-(U3-ITERM-Pad15)] of U3 on B.Cu",
+                    "pos": {
+                        "x": 134.202525,
+                        "y": 104.278895
+                    },
+                    "uuid": "0cc1444f-e3fd-400e-90bd-060a360b7714"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 16 [Net-(U3-ISET)] of U3 on B.Cu",
+                    "pos": {
+                        "x": 134.702515,
+                        "y": 104.278895
+                    },
+                    "uuid": "08b79d93-33fd-4dfd-92e3-425c799d24c7"
+                },
+                {
+                    "description": "Pad 17 [GND] of U3 on B.Cu",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "0ff38fad-b1f5-4c6c-bfae-fa4eb14764e7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}

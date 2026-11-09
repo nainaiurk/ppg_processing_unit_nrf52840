@@ -1,0 +1,3437 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T14:30:13",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/U_Power/",
+            "uuid_path": "/2b4f9e96-6511-4ff8-87ea-73273d240473/0fd66672-4205-4903-a45d-eaf7e13c6937",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 77.47,
+                                "y": 154.94
+                            },
+                            "uuid": "a5e48aac-7088-4c6e-a371-ee0a67a74917"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR030 Hidden pin  [5V, Power input, Line]",
+                            "pos": {
+                                "x": 95.25,
+                                "y": 77.47
+                            },
+                            "uuid": "255889bc-48fe-4434-9683-0ffff763b8e6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 10 [OUT, Output, Line]",
+                            "pos": {
+                                "x": 162.56,
+                                "y": 72.39
+                            },
+                            "uuid": "0436589f-6c33-4ba8-aa50-e3d81d8d1016"
+                        },
+                        {
+                            "description": "Symbol U3 Pin 11 [OUT, Output, Line]",
+                            "pos": {
+                                "x": 162.56,
+                                "y": 74.93
+                            },
+                            "uuid": "56ddd5e2-0d14-4e5c-b9a1-d755884ad0fe"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR023 [SYS_PWR_CIRCLE]",
+                            "pos": {
+                                "x": 36.83,
+                                "y": 147.32
+                            },
+                            "uuid": "00ee8393-5155-47c1-9f21-3b1d2c67d9ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [e34efe21362d63d7198b5d2c73e37bd]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 85.09
+                            },
+                            "uuid": "73911e2a-198c-485f-915f-b90928ddfeb5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [e34efe21362d63d7198b5d2c73e37bd]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 85.09
+                            },
+                            "uuid": "73911e2a-198c-485f-915f-b90928ddfeb5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR024 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 85.09
+                            },
+                            "uuid": "de237de3-8c2c-47f1-afc8-4deed67bdc67"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C10 [CAP-NP-2]",
+                            "pos": {
+                                "x": 41.91,
+                                "y": 154.94
+                            },
+                            "uuid": "2f0bc795-29cb-4106-94c8-71b738a3d4c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C10 [CAP-NP-2]",
+                            "pos": {
+                                "x": 41.91,
+                                "y": 154.94
+                            },
+                            "uuid": "2f0bc795-29cb-4106-94c8-71b738a3d4c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR025 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 41.91,
+                                "y": 154.94
+                            },
+                            "uuid": "d60fe87f-e5ff-42cc-91cf-47e9c1e7bb68"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR026 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 50.8,
+                                "y": 162.56
+                            },
+                            "uuid": "4b9e1794-c77a-4a45-b14d-60549fd63d9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C9 [CAP-NP-2]",
+                            "pos": {
+                                "x": 52.07,
+                                "y": 97.79
+                            },
+                            "uuid": "f6d65903-6cd9-4637-a85e-5c099bbba0d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR027 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 52.07,
+                                "y": 97.79
+                            },
+                            "uuid": "4612451c-2b26-4ff9-91e2-40696f4ad425"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C9 [CAP-NP-2]",
+                            "pos": {
+                                "x": 52.07,
+                                "y": 97.79
+                            },
+                            "uuid": "f6d65903-6cd9-4637-a85e-5c099bbba0d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [TI-TPS62233DRY6]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 152.4
+                            },
+                            "uuid": "e977fc25-ee50-47c3-8d70-f015974a3f2c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR028 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 172.72
+                            },
+                            "uuid": "f7a0267a-5d1a-4ce3-b097-3d62c451a725"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R3 [RES-2]",
+                            "pos": {
+                                "x": 77.47,
+                                "y": 74.93
+                            },
+                            "uuid": "1b19065d-4d07-4619-87c0-612531603167"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol R3 [RES-2]",
+                            "pos": {
+                                "x": 77.47,
+                                "y": 74.93
+                            },
+                            "uuid": "1b19065d-4d07-4619-87c0-612531603167"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR029 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 77.47,
+                                "y": 74.93
+                            },
+                            "uuid": "c60609bc-8c78-4c3c-be7b-791cdbbdbeb7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [725321dda6339637d4d059423bc1c3c]",
+                            "pos": {
+                                "x": 88.9,
+                                "y": 154.94
+                            },
+                            "uuid": "cde85ca4-8fc7-4697-b99d-eec9c80b7ee5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [725321dda6339637d4d059423bc1c3c]",
+                            "pos": {
+                                "x": 88.9,
+                                "y": 154.94
+                            },
+                            "uuid": "cde85ca4-8fc7-4697-b99d-eec9c80b7ee5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR030 [5V_CIRCLE]",
+                            "pos": {
+                                "x": 95.25,
+                                "y": 77.47
+                            },
+                            "uuid": "6334a6f5-4d7f-4e21-98d0-4f31f69ed5e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C8 [CAP-NP-2]",
+                            "pos": {
+                                "x": 101.6,
+                                "y": 85.09
+                            },
+                            "uuid": "0ed24858-d1f0-4905-b3a6-c4085a2ce3c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C8 [CAP-NP-2]",
+                            "pos": {
+                                "x": 101.6,
+                                "y": 85.09
+                            },
+                            "uuid": "0ed24858-d1f0-4905-b3a6-c4085a2ce3c5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR031 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 101.6,
+                                "y": 85.09
+                            },
+                            "uuid": "a5fdb55e-d0e1-4dc6-b5fd-c151923f1daf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C11 [CAP-NP-2]",
+                            "pos": {
+                                "x": 106.68,
+                                "y": 162.56
+                            },
+                            "uuid": "ab72d966-3654-4de9-bf7c-5c569d48f73d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR032 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 106.68,
+                                "y": 162.56
+                            },
+                            "uuid": "13658398-218c-45e9-adaf-e3d65df75178"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C11 [CAP-NP-2]",
+                            "pos": {
+                                "x": 106.68,
+                                "y": 162.56
+                            },
+                            "uuid": "ab72d966-3654-4de9-bf7c-5c569d48f73d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR033 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 69.85
+                            },
+                            "uuid": "bfcf71dc-3a5d-49f6-a445-014dadef370f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR034 [3V0_BAR]",
+                            "pos": {
+                                "x": 113.03,
+                                "y": 154.94
+                            },
+                            "uuid": "12249bfd-f54f-4a33-834f-e4cc60d320bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR035 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 114.3,
+                                "y": 85.09
+                            },
+                            "uuid": "2042f860-8749-4fb9-bf4b-de3c56cf7a18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R5 [RES-2]",
+                            "pos": {
+                                "x": 114.3,
+                                "y": 97.79
+                            },
+                            "uuid": "07abc6a7-c732-4d36-8b79-907784ce03fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol R5 [RES-2]",
+                            "pos": {
+                                "x": 114.3,
+                                "y": 97.79
+                            },
+                            "uuid": "07abc6a7-c732-4d36-8b79-907784ce03fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR036 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 114.3,
+                                "y": 97.79
+                            },
+                            "uuid": "f10d5a96-78f2-433e-b38b-4ee558117180"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R4 [RES]",
+                            "pos": {
+                                "x": 116.84,
+                                "y": 82.55
+                            },
+                            "uuid": "cb42386d-eecd-4b4d-ae08-748ac131a39c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol R4 [RES]",
+                            "pos": {
+                                "x": 116.84,
+                                "y": 82.55
+                            },
+                            "uuid": "cb42386d-eecd-4b4d-ae08-748ac131a39c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR037 [SYS_PWR_CIRCLE]",
+                            "pos": {
+                                "x": 127.0,
+                                "y": 72.39
+                            },
+                            "uuid": "b24da443-e432-4399-bf25-606cf05c4f0d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [BQ24232HARGTR]",
+                            "pos": {
+                                "x": 144.78,
+                                "y": 82.55
+                            },
+                            "uuid": "9ca4a874-cd40-4188-92ab-43633e171c7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [BQ24232HARGTR]",
+                            "pos": {
+                                "x": 144.78,
+                                "y": 82.55
+                            },
+                            "uuid": "9ca4a874-cd40-4188-92ab-43633e171c7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR038 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 162.56,
+                                "y": 62.23
+                            },
+                            "uuid": "b750b374-888c-4f2f-9e44-2439a72b0bff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR039 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 162.56,
+                                "y": 102.87
+                            },
+                            "uuid": "693fc78d-ed3a-4878-a937-4b19be22dfd3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR040 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 176.53,
+                                "y": 54.61
+                            },
+                            "uuid": "55ccd0dc-b492-46be-b1a8-7b508f40d181"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [RES-2]",
+                            "pos": {
+                                "x": 176.53,
+                                "y": 67.31
+                            },
+                            "uuid": "190d171b-d9ec-453f-932a-6d51a48524e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [RES-2]",
+                            "pos": {
+                                "x": 176.53,
+                                "y": 67.31
+                            },
+                            "uuid": "190d171b-d9ec-453f-932a-6d51a48524e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C6 [CAP-NP-2]",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 80.01
+                            },
+                            "uuid": "e21b0282-572d-4a5f-9623-6bf6b605c5c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C6 [CAP-NP-2]",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 80.01
+                            },
+                            "uuid": "e21b0282-572d-4a5f-9623-6bf6b605c5c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR041 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 179.07,
+                                "y": 80.01
+                            },
+                            "uuid": "e8f0eb0d-d6f2-445f-b412-42c07b570509"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR042 [SYS_PWR_BAR]",
+                            "pos": {
+                                "x": 182.88,
+                                "y": 72.39
+                            },
+                            "uuid": "98da41bf-ae0a-4380-b0ae-971eced6a70b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR011 [SYS_PWR_CIRCLE]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 52.07
+                            },
+                            "uuid": "319b9d0b-c297-4409-99ef-b5dacf55c26a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 10.16 mm",
+                            "pos": {
+                                "x": 68.58,
+                                "y": 158.75
+                            },
+                            "uuid": "9dc605aa-6760-4150-8404-d99936cfd1f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 10.16 mm",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 161.29
+                            },
+                            "uuid": "ef9f07c2-b276-4482-a035-45960803e0d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 10.16 mm",
+                            "pos": {
+                                "x": 68.58,
+                                "y": 163.83
+                            },
+                            "uuid": "0fc6187b-6439-452b-880e-ebb0ecae713e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 10.16 mm",
+                            "pos": {
+                                "x": 68.58,
+                                "y": 171.45
+                            },
+                            "uuid": "43ecdefd-f00d-4ad0-a8b7-c28d9ed8312c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 10.16 mm",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 173.99
+                            },
+                            "uuid": "04c7e329-dad6-4155-baa4-0550a0bf8f3c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SparkFun-Qwiic-RTC-Module-eagle-import'",
+                    "items": [
+                        {
+                            "description": "Symbol C1 [.22F-SUPERCAP]",
+                            "pos": {
+                                "x": 69.85,
+                                "y": 99.06
+                            },
+                            "uuid": "96617014-35d7-4992-a289-01cd11a0f167"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR04 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 69.85,
+                                "y": 105.41
+                            },
+                            "uuid": "f47c407f-ecb4-4bfc-b970-b26f601881e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol J3 [51338-9873]",
+                            "pos": {
+                                "x": 72.39,
+                                "y": 34.29
+                            },
+                            "uuid": "84d94b13-12d1-4633-b113-8ac3f5d8bdff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol J3 [51338-9873]",
+                            "pos": {
+                                "x": 72.39,
+                                "y": 34.29
+                            },
+                            "uuid": "84d94b13-12d1-4633-b113-8ac3f5d8bdff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Adafruit MEMENTO Camera Board-eagle-import'",
+                    "items": [
+                        {
+                            "description": "Symbol C2 [CAP_CERAMIC0603_NO]",
+                            "pos": {
+                                "x": 80.01,
+                                "y": 100.33
+                            },
+                            "uuid": "b36ef838-0271-4322-822e-2bac9f2d96dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR06 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 80.01,
+                                "y": 105.41
+                            },
+                            "uuid": "aa8e94e1-db57-4d8c-bc6f-ef1db5e22afc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR014 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 88.9,
+                                "y": 41.91
+                            },
+                            "uuid": "e05ee7e8-b4f8-43ec-afd6-de0d83f0ddfb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR016 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 95.25,
+                                "y": 44.45
+                            },
+                            "uuid": "34516066-12ff-42a4-9b54-7d31a7d98952"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 7.62 mm",
+                            "pos": {
+                                "x": 95.25,
+                                "y": 46.99
+                            },
+                            "uuid": "e369b9fe-7ce9-4f2c-80c2-e1f795b8188c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 7.62 mm",
+                            "pos": {
+                                "x": 87.63,
+                                "y": 49.53
+                            },
+                            "uuid": "92efa87c-a9ad-465c-9de1-024e65fb9201"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Adafruit MEMENTO Camera Board-eagle-import'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [RESISTOR_0603_NOOUT]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 107.95
+                            },
+                            "uuid": "d8964346-0817-4b33-940b-624ca1935ced"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR010 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 113.03
+                            },
+                            "uuid": "0360b5b7-a89b-40af-8147-984a37a0e4c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C3 [CAP-NP-2]",
+                            "pos": {
+                                "x": 140.97,
+                                "y": 107.95
+                            },
+                            "uuid": "e48f4bb4-08d2-4485-ba16-4e8528fb8444"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR013 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 140.97,
+                                "y": 107.95
+                            },
+                            "uuid": "1b1addef-b552-4af3-ae03-9745ad5a868e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C3 [CAP-NP-2]",
+                            "pos": {
+                                "x": 140.97,
+                                "y": 107.95
+                            },
+                            "uuid": "e48f4bb4-08d2-4485-ba16-4e8528fb8444"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR015 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 100.33
+                            },
+                            "uuid": "6297bcdd-8921-4a97-8866-9d49a12f8f20"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR05 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 171.45,
+                                "y": 36.83
+                            },
+                            "uuid": "cbf5b3f3-ebf2-4de3-b2dd-1c1eda6e013e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C4 [CAP-NP-2]",
+                            "pos": {
+                                "x": 175.26,
+                                "y": 44.45
+                            },
+                            "uuid": "5fd34883-255d-49d9-8ae6-67ae452b9b62"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C4 [CAP-NP-2]",
+                            "pos": {
+                                "x": 175.26,
+                                "y": 44.45
+                            },
+                            "uuid": "5fd34883-255d-49d9-8ae6-67ae452b9b62"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR07 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 175.26,
+                                "y": 44.45
+                            },
+                            "uuid": "ef923b1e-6c8d-4fac-91dc-8845fccf2c43"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C5 [CAP-NP-2]",
+                            "pos": {
+                                "x": 186.69,
+                                "y": 44.45
+                            },
+                            "uuid": "28667719-5bd5-47f7-b480-67100477ff8f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C5 [CAP-NP-2]",
+                            "pos": {
+                                "x": 186.69,
+                                "y": 44.45
+                            },
+                            "uuid": "28667719-5bd5-47f7-b480-67100477ff8f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR08 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 186.69,
+                                "y": 44.45
+                            },
+                            "uuid": "2f1de973-acb1-4678-9867-3dfa6218c41e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR09 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 203.2,
+                                "y": 45.72
+                            },
+                            "uuid": "d43013fb-03ed-401d-b06f-e2e16bc46828"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [81fec952999c1d2b2c57b268842d83b]",
+                            "pos": {
+                                "x": 205.74,
+                                "y": 36.83
+                            },
+                            "uuid": "bd731b4e-f12c-4549-89f6-d4fa752fe6a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [81fec952999c1d2b2c57b268842d83b]",
+                            "pos": {
+                                "x": 205.74,
+                                "y": 36.83
+                            },
+                            "uuid": "bd731b4e-f12c-4549-89f6-d4fa752fe6a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR012 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 246.38,
+                                "y": 64.77
+                            },
+                            "uuid": "0002806b-0320-4d94-8dd0-689e733025a3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR063 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 44.45,
+                                "y": 52.07
+                            },
+                            "uuid": "83426014-f654-469c-834b-f599187c9d75"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol D4 [9e1a3e676f5e2bcfd35a46b8bda8a87]",
+                            "pos": {
+                                "x": 52.07,
+                                "y": 52.07
+                            },
+                            "uuid": "f137b541-39b5-4b44-9d7a-91e3fc10559c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol D4 [9e1a3e676f5e2bcfd35a46b8bda8a87]",
+                            "pos": {
+                                "x": 52.07,
+                                "y": 52.07
+                            },
+                            "uuid": "f137b541-39b5-4b44-9d7a-91e3fc10559c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R6 [RES]",
+                            "pos": {
+                                "x": 86.36,
+                                "y": 39.37
+                            },
+                            "uuid": "d56b2002-3299-4911-83bd-986058e48991"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol R6 [RES]",
+                            "pos": {
+                                "x": 86.36,
+                                "y": 39.37
+                            },
+                            "uuid": "d56b2002-3299-4911-83bd-986058e48991"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R7 [RES]",
+                            "pos": {
+                                "x": 86.36,
+                                "y": 49.53
+                            },
+                            "uuid": "69fd2b02-9f1d-4b6c-b897-35cf7ee88ed6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol R7 [RES]",
+                            "pos": {
+                                "x": 86.36,
+                                "y": 49.53
+                            },
+                            "uuid": "69fd2b02-9f1d-4b6c-b897-35cf7ee88ed6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R12 [RES]",
+                            "pos": {
+                                "x": 86.36,
+                                "y": 59.69
+                            },
+                            "uuid": "f924a244-d183-48e3-9a42-bb97574bf949"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol R12 [RES]",
+                            "pos": {
+                                "x": 86.36,
+                                "y": 59.69
+                            },
+                            "uuid": "f924a244-d183-48e3-9a42-bb97574bf949"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR068 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 189.23,
+                                "y": 62.23
+                            },
+                            "uuid": "6b895c61-12df-4a47-9930-aa5774f3c5fd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR069 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 207.01,
+                                "y": 35.56
+                            },
+                            "uuid": "9a9b2a03-b197-4025-bf99-a3d1fc743380"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol D2 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 209.55,
+                                "y": 43.18
+                            },
+                            "uuid": "38aa1f17-75dc-4c08-a9c7-c1c2887e933c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol D2 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 209.55,
+                                "y": 43.18
+                            },
+                            "uuid": "38aa1f17-75dc-4c08-a9c7-c1c2887e933c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 121.92
+                            },
+                            "uuid": "ac6cb7c2-b100-47a2-86ac-8b525c1942ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR03 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 111.76,
+                                "y": 106.68
+                            },
+                            "uuid": "1c382695-d033-4c7b-920d-5423d49fdc42"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Adafruit MEMENTO Camera Board-eagle-import'",
+                    "items": [
+                        {
+                            "description": "Symbol R18 [RESISTOR_0603_NOOUT]",
+                            "pos": {
+                                "x": 111.76,
+                                "y": 111.76
+                            },
+                            "uuid": "dda7d0ed-b159-4b27-9ea9-acb0f4cc28af"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Adafruit MEMENTO Camera Board-eagle-import'",
+                    "items": [
+                        {
+                            "description": "Symbol R20 [RESISTOR_0603_NOOUT]",
+                            "pos": {
+                                "x": 128.27,
+                                "y": 127.0
+                            },
+                            "uuid": "4665ecdc-7833-4c64-bf23-b8fd5c108551"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C16 [CAP-NP-2]",
+                            "pos": {
+                                "x": 152.4,
+                                "y": 121.92
+                            },
+                            "uuid": "58001e3c-34ab-45ed-a10f-5e546184c3a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C16 [CAP-NP-2]",
+                            "pos": {
+                                "x": 152.4,
+                                "y": 121.92
+                            },
+                            "uuid": "58001e3c-34ab-45ed-a10f-5e546184c3a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR01 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 152.4,
+                                "y": 121.92
+                            },
+                            "uuid": "b499726d-ab6b-45a8-af90-e4caba5e95d2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR043 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 24.13,
+                                "y": 172.72
+                            },
+                            "uuid": "dc0f5334-ddf0-487b-b652-4dc5c0b3c1b7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR044 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 33.02,
+                                "y": 93.98
+                            },
+                            "uuid": "a0522743-ce44-40d4-b259-572c41db2b96"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR045 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 33.02,
+                                "y": 105.41
+                            },
+                            "uuid": "a08edb51-e85e-468a-ad9a-1bd9a7cce5e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR046 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 33.02,
+                                "y": 116.84
+                            },
+                            "uuid": "3ffa838f-11e4-4dfb-aabc-2501651cbebe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR047 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 33.02,
+                                "y": 128.27
+                            },
+                            "uuid": "d3ea7eef-71d0-40ad-aec0-c5e6ecc75298"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR048 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 33.02,
+                                "y": 139.7
+                            },
+                            "uuid": "e9707f61-4219-4e10-8f52-1cc23fae6303"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [814-22-008-30-001101-Symbol-1]",
+                            "pos": {
+                                "x": 35.56,
+                                "y": 172.72
+                            },
+                            "uuid": "3b6cfa24-1525-44c7-b95b-5c0b388bea1d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [814-22-008-30-001101-Symbol-1]",
+                            "pos": {
+                                "x": 35.56,
+                                "y": 172.72
+                            },
+                            "uuid": "3b6cfa24-1525-44c7-b95b-5c0b388bea1d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol D1 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 96.52
+                            },
+                            "uuid": "3b6e93d2-cd33-4085-8929-04d52253752e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol D1 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 96.52
+                            },
+                            "uuid": "3b6e93d2-cd33-4085-8929-04d52253752e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol D5 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 107.95
+                            },
+                            "uuid": "f1302c93-893d-463b-948f-cfaf36b40869"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol D5 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 107.95
+                            },
+                            "uuid": "f1302c93-893d-463b-948f-cfaf36b40869"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol D6 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 119.38
+                            },
+                            "uuid": "09f39802-12b4-4c55-9ec5-b85d9e34f912"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol D6 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 119.38
+                            },
+                            "uuid": "09f39802-12b4-4c55-9ec5-b85d9e34f912"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol D7 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 130.81
+                            },
+                            "uuid": "ed736e3d-81c8-4795-bd9b-bd9986b11e76"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol D7 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 130.81
+                            },
+                            "uuid": "ed736e3d-81c8-4795-bd9b-bd9986b11e76"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol D8 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 142.24
+                            },
+                            "uuid": "6d653211-d111-4f84-8067-a570cd2fd898"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol D8 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 142.24
+                            },
+                            "uuid": "6d653211-d111-4f84-8067-a570cd2fd898"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR049 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 93.98
+                            },
+                            "uuid": "4d8ae078-60fa-4a7f-8162-fa7bd67f7728"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 7.62 mm",
+                            "pos": {
+                                "x": 53.34,
+                                "y": 105.41
+                            },
+                            "uuid": "adb443f2-6695-4bdc-9f2f-66417df87dec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 7.62 mm",
+                            "pos": {
+                                "x": 53.34,
+                                "y": 116.84
+                            },
+                            "uuid": "6f26de16-9079-483b-8437-af159d08f5ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 7.62 mm",
+                            "pos": {
+                                "x": 53.34,
+                                "y": 128.27
+                            },
+                            "uuid": "c68f896f-ea94-45a3-9dca-a5a86d5deca6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 7.62 mm",
+                            "pos": {
+                                "x": 53.34,
+                                "y": 139.7
+                            },
+                            "uuid": "e81924d7-96f4-40b4-9673-9ce205c2963d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR050 [5V_BAR]",
+                            "pos": {
+                                "x": 55.88,
+                                "y": 172.72
+                            },
+                            "uuid": "c58ddc1e-64ba-497a-8039-24b610cf0a32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 8.89 mm",
+                            "pos": {
+                                "x": 48.26,
+                                "y": 175.26
+                            },
+                            "uuid": "19a7a6df-808b-49fc-bb4d-a949751e2437"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 8.89 mm",
+                            "pos": {
+                                "x": 48.26,
+                                "y": 177.8
+                            },
+                            "uuid": "8e681a0b-ff71-4fa2-ab71-e14027ab24c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR051 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 180.34
+                            },
+                            "uuid": "fbe712b6-550f-4745-93a0-e090e3574536"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'HAP_EN'",
+                            "pos": {
+                                "x": 86.36,
+                                "y": 48.26
+                            },
+                            "uuid": "252d115b-64c1-473b-ae89-1c979882cec2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'HAP_TRIG'",
+                            "pos": {
+                                "x": 86.36,
+                                "y": 50.8
+                            },
+                            "uuid": "9e8ea0b0-4e13-435e-9261-54b90fbcd7eb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'MIC_CLK'",
+                            "pos": {
+                                "x": 92.71,
+                                "y": 78.74
+                            },
+                            "uuid": "b4e8bdaf-ce1f-4be5-acf8-325df4263e14"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR052 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 93.98,
+                                "y": 16.51
+                            },
+                            "uuid": "acfa2893-7572-45da-bdf2-0df52ef3d548"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C25 [CAP-NP-2]",
+                            "pos": {
+                                "x": 97.79,
+                                "y": 24.13
+                            },
+                            "uuid": "0ddf5687-62c1-4198-9c7b-99cb8b45291d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C25 [CAP-NP-2]",
+                            "pos": {
+                                "x": 97.79,
+                                "y": 24.13
+                            },
+                            "uuid": "0ddf5687-62c1-4198-9c7b-99cb8b45291d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR053 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 97.79,
+                                "y": 24.13
+                            },
+                            "uuid": "9d26c040-fa86-4cac-909c-0bae0c898d47"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol U5 [NINA-B302]",
+                            "pos": {
+                                "x": 101.6,
+                                "y": 33.02
+                            },
+                            "uuid": "a86c8961-2b4e-408a-b1a2-2c5dc4f1d023"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C22 [CAP-NP-2]",
+                            "pos": {
+                                "x": 109.22,
+                                "y": 24.13
+                            },
+                            "uuid": "24a0e84f-95ae-498e-b709-58ed9b8a78e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol C22 [CAP-NP-2]",
+                            "pos": {
+                                "x": 109.22,
+                                "y": 24.13
+                            },
+                            "uuid": "24a0e84f-95ae-498e-b709-58ed9b8a78e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR054 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 109.22,
+                                "y": 24.13
+                            },
+                            "uuid": "ca443c2b-2add-4647-9fe6-7a34ceb8077f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR055 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 121.92,
+                                "y": 139.7
+                            },
+                            "uuid": "c7fa9b41-be58-4545-a2fd-ee75d205a6e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 12.70 mm",
+                            "pos": {
+                                "x": 109.22,
+                                "y": 170.18
+                            },
+                            "uuid": "bdcb67b4-5c29-42a1-91e6-c2cb67daa107"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 12.70 mm",
+                            "pos": {
+                                "x": 109.22,
+                                "y": 172.72
+                            },
+                            "uuid": "29d5af9b-893a-4947-a3f7-f90b895838a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 12.70 mm",
+                            "pos": {
+                                "x": 109.22,
+                                "y": 175.26
+                            },
+                            "uuid": "f0622827-46eb-4bfd-802f-429d4c93dec3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol TP1 [Test Point-Symbol-1]",
+                            "pos": {
+                                "x": 127.0,
+                                "y": 181.61
+                            },
+                            "uuid": "f2097d1c-5429-4475-8c32-33690bfab1a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol TP1 [Test Point-Symbol-1]",
+                            "pos": {
+                                "x": 127.0,
+                                "y": 181.61
+                            },
+                            "uuid": "f2097d1c-5429-4475-8c32-33690bfab1a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR056 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 132.08,
+                                "y": 168.91
+                            },
+                            "uuid": "b73845ec-dd89-4334-b775-70360c83572c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R8 [RES-2]",
+                            "pos": {
+                                "x": 132.08,
+                                "y": 181.61
+                            },
+                            "uuid": "500722ff-e933-4708-9cd0-afd3ebce9832"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol R8 [RES-2]",
+                            "pos": {
+                                "x": 132.08,
+                                "y": 181.61
+                            },
+                            "uuid": "500722ff-e933-4708-9cd0-afd3ebce9832"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR057 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 168.91
+                            },
+                            "uuid": "875e5ce2-cb5a-4c60-8635-0dc187fe4af8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R9 [RES-2]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 181.61
+                            },
+                            "uuid": "16430c26-1744-4028-959c-dd74b5888c57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol R9 [RES-2]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 181.61
+                            },
+                            "uuid": "16430c26-1744-4028-959c-dd74b5888c57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol TP2 [Test Point-Symbol-1]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 184.15
+                            },
+                            "uuid": "1c1685e2-67f4-4ae4-ae61-a61095e37826"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Ka Moamoa'",
+                    "items": [
+                        {
+                            "description": "Symbol TP2 [Test Point-Symbol-1]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 184.15
+                            },
+                            "uuid": "1c1685e2-67f4-4ae4-ae61-a61095e37826"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 7.62 mm",
+                            "pos": {
+                                "x": 170.18,
+                                "y": 104.14
+                            },
+                            "uuid": "82ce014d-b3e4-474a-af40-d33d7f95bed9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 7.62 mm",
+                            "pos": {
+                                "x": 170.18,
+                                "y": 109.22
+                            },
+                            "uuid": "a2d88328-754e-49ef-a7fc-3239fe794fb8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'BAR_INT'",
+                            "pos": {
+                                "x": 172.72,
+                                "y": 96.52
+                            },
+                            "uuid": "7d848dcf-9a7d-46b8-8bbf-d44196807e70"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'BAR_CS'",
+                            "pos": {
+                                "x": 172.72,
+                                "y": 99.06
+                            },
+                            "uuid": "982b7558-d2d2-4d7a-8606-f6f6341a688a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 10.16 mm",
+                            "pos": {
+                                "x": 172.72,
+                                "y": 101.6
+                            },
+                            "uuid": "05624c93-d985-4f5c-871b-a4ebbc03e1b7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'MIC_OUT'",
+                            "pos": {
+                                "x": 172.72,
+                                "y": 106.68
+                            },
+                            "uuid": "8ccbe5b7-2aca-4ff3-af3b-8fffe1a8703f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 12.70 mm",
+                            "pos": {
+                                "x": 175.26,
+                                "y": 71.12
+                            },
+                            "uuid": "7536632a-53be-44d8-b2c4-bc895df4d81f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 12.70 mm",
+                            "pos": {
+                                "x": 175.26,
+                                "y": 73.66
+                            },
+                            "uuid": "cdb53ca2-f6ac-48a2-858c-acba24b5feeb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR058 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 186.69,
+                                "y": 78.74
+                            },
+                            "uuid": "fa667bd0-11b9-42be-a6be-4b7134a3405a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol D3 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 189.23,
+                                "y": 71.12
+                            },
+                            "uuid": "8900202e-1168-4c20-b34d-560ca96fa177"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol D3 [ONSC-K1A2-2]",
+                            "pos": {
+                                "x": 189.23,
+                                "y": 71.12
+                            },
+                            "uuid": "8900202e-1168-4c20-b34d-560ca96fa177"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol R13 [RES]",
+                            "pos": {
+                                "x": 191.77,
+                                "y": 60.96
+                            },
+                            "uuid": "e37f5cb9-0583-4e17-9eca-054b66095c17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol R13 [RES]",
+                            "pos": {
+                                "x": 191.77,
+                                "y": 60.96
+                            },
+                            "uuid": "e37f5cb9-0583-4e17-9eca-054b66095c17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR059 [3V0_CIRCLE]",
+                            "pos": {
+                                "x": 194.31,
+                                "y": 53.34
+                            },
+                            "uuid": "48e4d501-bd9c-4df3-b6bd-32d556c6cdc1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol SW2 [813df4cfdb4052aee97c27e18547ebb]",
+                            "pos": {
+                                "x": 207.01,
+                                "y": 66.04
+                            },
+                            "uuid": "2aad2b10-7c62-4eb0-8408-194845ebb542"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Altium Content Vault'",
+                    "items": [
+                        {
+                            "description": "Symbol SW2 [813df4cfdb4052aee97c27e18547ebb]",
+                            "pos": {
+                                "x": 207.01,
+                                "y": 66.04
+                            },
+                            "uuid": "2aad2b10-7c62-4eb0-8408-194845ebb542"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Conductor-altium-import'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR060 [GND_POWER_GROUND]",
+                            "pos": {
+                                "x": 217.17,
+                                "y": 66.04
+                            },
+                            "uuid": "be89d3b7-9fbb-4b80-9cc0-2426d59e4cc7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/U_Sensors/",
+            "uuid_path": "/2b4f9e96-6511-4ff8-87ea-73273d240473/04daef6d-8367-41fc-bb6b-3ec4247f7ee8",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR011 Hidden pin  [SYS_PWR, Power input, Line]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 52.07
+                            },
+                            "uuid": "9c06cc83-46e5-414a-9a90-c709633b5593"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Both {SPI} and SPI{SPI} are attached to the same items; {SPI} will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label '{SPI}'",
+                            "pos": {
+                                "x": 45.72,
+                                "y": 161.29
+                            },
+                            "uuid": "07b85e1f-2d8c-4581-9f9b-974151d330cb"
+                        },
+                        {
+                            "description": "Hierarchical Label 'SPI{SPI}'",
+                            "pos": {
+                                "x": 43.18,
+                                "y": 161.29
+                            },
+                            "uuid": "94e7b841-f9e5-46b5-b967-cee38e435238"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both {I2C} and I2C{I2C} are attached to the same items; {I2C} will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label '{I2C}'",
+                            "pos": {
+                                "x": 44.45,
+                                "y": 172.72
+                            },
+                            "uuid": "0032f421-5e37-4c0f-b495-1e1fb66b7066"
+                        },
+                        {
+                            "description": "Hierarchical Label 'I2C{I2C}'",
+                            "pos": {
+                                "x": 44.45,
+                                "y": 172.72
+                            },
+                            "uuid": "081a5385-1e20-40bd-9c3d-eda6c26c89f2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1 [VBACKUP, Unspecified, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 95.25
+                            },
+                            "uuid": "0250c15e-27c2-4cd4-bcb7-e5dd175140ba"
+                        },
+                        {
+                            "description": "Symbol C2 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 80.01,
+                                "y": 95.25
+                            },
+                            "uuid": "f460dd1d-dc5a-4826-bf65-ea3360169b79"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 2 [SDA, Unspecified, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 97.79
+                            },
+                            "uuid": "1ddf30ae-40f8-4b26-a2af-5ba05efb2e70"
+                        },
+                        {
+                            "description": "Symbol J3 Pin 7 [7, Passive, Line]",
+                            "pos": {
+                                "x": 87.63,
+                                "y": 49.53
+                            },
+                            "uuid": "64f536d8-960e-4ae1-92dc-4377b9ca19d1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 4 [EVI, Unspecified, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 102.87
+                            },
+                            "uuid": "32b788e7-d61e-4582-abee-4cb150280a99"
+                        },
+                        {
+                            "description": "Symbol R1 Pin 2 [2, Passive, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 102.87
+                            },
+                            "uuid": "d4634730-ee69-443c-aa78-6f20f288f2ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 8 [SCL, Unspecified, Line]",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 95.25
+                            },
+                            "uuid": "26480070-d91e-4652-933e-2b4631bca134"
+                        },
+                        {
+                            "description": "Symbol J3 Pin 5 [5, Passive, Line]",
+                            "pos": {
+                                "x": 87.63,
+                                "y": 46.99
+                            },
+                            "uuid": "a96bd583-b3c4-4467-bc04-5111749c2012"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 6 [VDD, Unspecified, Line]",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 100.33
+                            },
+                            "uuid": "de9e7d7c-1221-4dca-a3a1-d8e080023b4f"
+                        },
+                        {
+                            "description": "Symbol C3 Pin 2 [2, Passive, Line]",
+                            "pos": {
+                                "x": 140.97,
+                                "y": 100.33
+                            },
+                            "uuid": "efb90ff9-b8e0-4259-84ce-000cd862969a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 5 [VSS, Unspecified, Line]",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 102.87
+                            },
+                            "uuid": "b35d169d-6393-46e6-b07d-e4069939d853"
+                        },
+                        {
+                            "description": "Symbol #PWR013 Hidden pin  [GND, Power input, Line]",
+                            "pos": {
+                                "x": 140.97,
+                                "y": 107.95
+                            },
+                            "uuid": "7bf9b95d-e4fd-4887-9c87-bab1212d70a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/U_UserInterface/",
+            "uuid_path": "/2b4f9e96-6511-4ff8-87ea-73273d240473/a9c99ebf-bf6c-4464-851e-e304ca50fde1",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 189.23,
+                                "y": 57.15
+                            },
+                            "uuid": "30e356f8-a75f-4c6c-8de4-8c049a8d599e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 Pin 2' [2', Unspecified, Line]",
+                            "pos": {
+                                "x": 204.47,
+                                "y": 62.23
+                            },
+                            "uuid": "9d142eb2-1a58-4958-8a31-ade9458e03b3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 189.23,
+                                "y": 62.23
+                            },
+                            "uuid": "4e224f54-fa74-4bbb-a68a-07cd49edb866"
+                        },
+                        {
+                            "description": "Symbol #PWR068 Hidden pin  [3V0, Power input, Line]",
+                            "pos": {
+                                "x": 189.23,
+                                "y": 62.23
+                            },
+                            "uuid": "c11bfc50-3107-4251-8fc5-d3e112aa21ea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 Pin 1' [1', Unspecified, Line]",
+                            "pos": {
+                                "x": 204.47,
+                                "y": 57.15
+                            },
+                            "uuid": "15c2339d-4f95-40c1-82c1-995577da1e6e"
+                        },
+                        {
+                            "description": "Symbol D2 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 207.01,
+                                "y": 48.26
+                            },
+                            "uuid": "97b7d011-d6fd-4252-9859-082191a2779f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/U_Memory/",
+            "uuid_path": "/2b4f9e96-6511-4ff8-87ea-73273d240473/bc5550b7-301d-4356-882e-a8ca5f45de92",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR03 Hidden pin  [3V0, Power input, Line]",
+                            "pos": {
+                                "x": 111.76,
+                                "y": 106.68
+                            },
+                            "uuid": "7542cae8-cdac-411c-ae81-9edfd2d0f8d7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 7 [DAT1, Unspecified, Line]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 116.84
+                            },
+                            "uuid": "138f8fb5-f725-4b95-bf25-bb2ca143ebe4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR01 Hidden pin  [GND, Power input, Line]",
+                            "pos": {
+                                "x": 152.4,
+                                "y": 121.92
+                            },
+                            "uuid": "31879222-8b32-4865-8bea-e87532fe4435"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 2 [DAT3, Unspecified, Line]",
+                            "pos": {
+                                "x": 116.84,
+                                "y": 116.84
+                            },
+                            "uuid": "b187ccf1-29d9-4888-b611-52ffe21e2fc3"
+                        },
+                        {
+                            "description": "Symbol R18 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 111.76,
+                                "y": 116.84
+                            },
+                            "uuid": "7786bf07-1bd7-4223-b3ea-7f5f05f63ef4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 3 [CLK, Unspecified, Line]",
+                            "pos": {
+                                "x": 116.84,
+                                "y": 119.38
+                            },
+                            "uuid": "4bf59271-1fb3-49da-81e9-937d43db24f3"
+                        },
+                        {
+                            "description": "Symbol R20 Pin 2 [2, Passive, Line]",
+                            "pos": {
+                                "x": 123.19,
+                                "y": 127.0
+                            },
+                            "uuid": "07241485-7496-4e91-b76b-d77d145c7452"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 4 [GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 116.84,
+                                "y": 121.92
+                            },
+                            "uuid": "73234d32-d4c4-40fa-8513-81e710a3dbc5"
+                        },
+                        {
+                            "description": "Symbol #PWR02 Hidden pin  [GND, Power input, Line]",
+                            "pos": {
+                                "x": 104.14,
+                                "y": 121.92
+                            },
+                            "uuid": "06591e3b-f828-4ebe-b003-fd9ae7616134"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 8 [VDD, Unspecified, Line]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 114.3
+                            },
+                            "uuid": "74b5e45c-3fbd-4b25-abc3-a83447d04814"
+                        },
+                        {
+                            "description": "Symbol C16 Pin 2 [2, Passive, Line]",
+                            "pos": {
+                                "x": 152.4,
+                                "y": 114.3
+                            },
+                            "uuid": "fd8329ee-8e27-4ce8-972a-975e8ffe8d61"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 6 [DAT0, Unspecified, Line]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 119.38
+                            },
+                            "uuid": "9d78f78c-c3b0-4469-9a4b-297db357950d"
+                        },
+                        {
+                            "description": "Symbol U5 Pin 49 [GPIO_49/P0.22/QSPI_D2, Bidirectional, Line]",
+                            "pos": {
+                                "x": 162.56,
+                                "y": 101.6
+                            },
+                            "uuid": "7ae7fce8-90b4-494a-b186-c5cd6361ec9b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 5 [CMD, Unspecified, Line]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 121.92
+                            },
+                            "uuid": "4fe87129-2b09-4903-9b2c-e08706d5f0d2"
+                        },
+                        {
+                            "description": "Symbol U5 Pin 50 [GPIO_50/P0.20/QSPI_D0, Bidirectional, Line]",
+                            "pos": {
+                                "x": 162.56,
+                                "y": 104.14
+                            },
+                            "uuid": "ecf9cbcf-f751-49ee-a8ad-0b63caf3f517"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unconnected \"no connection\" flag",
+                    "items": [
+                        {
+                            "description": "No Connect",
+                            "pos": {
+                                "x": 140.97,
+                                "y": 116.84
+                            },
+                            "uuid": "dfe11eaa-a3e0-442d-9328-7e246bcf2621"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_dangling"
+                },
+                {
+                    "description": "Both {SPI} and SPI{SPI} are attached to the same items; {SPI} will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label '{SPI}'",
+                            "pos": {
+                                "x": 153.67,
+                                "y": 130.81
+                            },
+                            "uuid": "02c06f0c-9254-4dbd-8e56-860aadd35947"
+                        },
+                        {
+                            "description": "Hierarchical Label 'SPI{SPI}'",
+                            "pos": {
+                                "x": 166.37,
+                                "y": 130.81
+                            },
+                            "uuid": "6a7820ba-1884-4e2b-8833-a2e98182eb8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        },
+        {
+            "path": "/",
+            "uuid_path": "/2b4f9e96-6511-4ff8-87ea-73273d240473",
+            "violations": [
+                {
+                    "description": "Sheet pin BAR_CS has no matching hierarchical label inside the sheet",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'BAR_CS'",
+                            "pos": {
+                                "x": 113.03,
+                                "y": 121.92
+                            },
+                            "uuid": "158e0636-3312-4908-bbd6-4fc4af353d5c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "hier_label_mismatch"
+                },
+                {
+                    "description": "Sheet pin BAR_INT has no matching hierarchical label inside the sheet",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'BAR_INT'",
+                            "pos": {
+                                "x": 113.03,
+                                "y": 124.46
+                            },
+                            "uuid": "ff459050-c07e-4624-8711-28f4cd46d298"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "hier_label_mismatch"
+                },
+                {
+                    "description": "Sheet pin MIC_CLK has no matching hierarchical label inside the sheet",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'MIC_CLK'",
+                            "pos": {
+                                "x": 113.03,
+                                "y": 128.27
+                            },
+                            "uuid": "746976c3-0d33-4b7c-8efa-39afa2073d4d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "hier_label_mismatch"
+                },
+                {
+                    "description": "Sheet pin MIC_OUT has no matching hierarchical label inside the sheet",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'MIC_OUT'",
+                            "pos": {
+                                "x": 113.03,
+                                "y": 130.81
+                            },
+                            "uuid": "c6296586-43c2-41bc-9bb9-811a9572abc4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "hier_label_mismatch"
+                },
+                {
+                    "description": "Sheet pin I2C{I2C} has no matching hierarchical label inside the sheet",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'I2C{I2C}'",
+                            "pos": {
+                                "x": 113.03,
+                                "y": 149.86
+                            },
+                            "uuid": "d122021b-1130-4ab7-8e0f-d4482edac567"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "hier_label_mismatch"
+                },
+                {
+                    "description": "Sheet pin HAP_TRIG has no matching hierarchical label inside the sheet",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'HAP_TRIG'",
+                            "pos": {
+                                "x": 113.03,
+                                "y": 152.4
+                            },
+                            "uuid": "56fc9b93-2d18-4c52-b341-5f30ef2f38b9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "hier_label_mismatch"
+                },
+                {
+                    "description": "Sheet pin HAP_EN has no matching hierarchical label inside the sheet",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'HAP_EN'",
+                            "pos": {
+                                "x": 113.03,
+                                "y": 154.94
+                            },
+                            "uuid": "eb83ea6b-a0bf-4fdf-bac5-298ea580d316"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "hier_label_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/U_MCU/",
+            "uuid_path": "/2b4f9e96-6511-4ff8-87ea-73273d240473/61ec38db-c816-4a11-b702-5cc804fa25a3",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 17 [GPIO_17/P0.28, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 60.96
+                            },
+                            "uuid": "bcc5a486-5297-446a-ab42-ed9c20efcb0a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 18 [GPIO_18/P0.02, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 63.5
+                            },
+                            "uuid": "e3a561e7-d1fa-43bd-9078-4b201096c1ea"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 20 [GPIO_20/P0.31, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 66.04
+                            },
+                            "uuid": "7c4d96d7-49da-4995-ad6a-2468fc83e4db"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 24 [GPIO_24/P0.30, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 76.2
+                            },
+                            "uuid": "70bbcd13-332b-42a8-afae-34231f4b508a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 27 [GPIO_27/P0.05, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 81.28
+                            },
+                            "uuid": "9aade7dc-4346-457a-bddd-ccb49df8ca03"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 33 [GPIO_33/P1.09/TRACE_D3, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 86.36
+                            },
+                            "uuid": "ee8efde1-17a5-44a5-a6e8-f47e4655273c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 35 [GPIO_35/P1.01, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 91.44
+                            },
+                            "uuid": "6af693eb-de23-4b59-bcbb-70df433543d1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 37 [GPIO_37/P1.03, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 96.52
+                            },
+                            "uuid": "865e2c48-e9c0-4b4a-a0a1-2b0c4848dbfc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 38 [GPIO_38/P1.10, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 99.06
+                            },
+                            "uuid": "5e46abb5-05ca-459d-a26a-cb10175dc60f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 40 [GPIO_40/P1.15, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 104.14
+                            },
+                            "uuid": "d24c02a3-a180-47b7-8f52-f4032f5331b9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 41 [GPIO_41/P1.14, Bidirectional, Line]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 106.68
+                            },
+                            "uuid": "3bc1dd22-20b4-4eb6-9810-d14079f59139"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Both {SPI} and SPI{SPI} are attached to the same items; {SPI} will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label '{SPI}'",
+                            "pos": {
+                                "x": 88.9,
+                                "y": 172.72
+                            },
+                            "uuid": "0c52b25b-8563-4458-bb6b-b7f8a9dba146"
+                        },
+                        {
+                            "description": "Hierarchical Label 'SPI{SPI}'",
+                            "pos": {
+                                "x": 88.9,
+                                "y": 172.72
+                            },
+                            "uuid": "878a737f-f07f-4f6e-839c-52eb5303a1a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both {I2C} and I2C{I2C} are attached to the same items; {I2C} will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label '{I2C}'",
+                            "pos": {
+                                "x": 88.9,
+                                "y": 182.88
+                            },
+                            "uuid": "78a6a7ae-ee5c-423e-9a2a-4ea42b995e40"
+                        },
+                        {
+                            "description": "Hierarchical Label 'I2C{I2C}'",
+                            "pos": {
+                                "x": 88.9,
+                                "y": 182.88
+                            },
+                            "uuid": "adda89c1-a85d-4dfc-bef2-b13b4a04204f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        }
+    ],
+    "source": "PPG_Processing_Unit.kicad_sch"
+}

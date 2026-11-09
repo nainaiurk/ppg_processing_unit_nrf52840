@@ -9045,7 +9045,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "NINA-B302"
+		(property "Value" "NINA-B306"
 			(at 146.05 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9056,7 +9056,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "NINA_LGA67R_1500X1000X338_PIFA"
+		(property "Footprint" "lcsc_shared_footprints:C6127317_LGA-60_L15_0-W10_0-NINA-B406-00B"
 			(at 101.6 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9089,7 +9089,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "NINA-B302"
+		(property "ALTIUM_VALUE" "NINA-B306"
 			(at 163.068 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -9101,7 +9101,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "DESIGN ITEM ID" "NINA-B302"
+		(property "DESIGN ITEM ID" "NINA-B306"
 			(at 96.012 27.432 90)
 			(hide yes)
 			(show_name no)
@@ -9149,7 +9149,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C6335962"
+		(property "LCSC" "C6127317"
 			(at 101.6 33.02 90)
 			(hide yes)
 			(show_name no)

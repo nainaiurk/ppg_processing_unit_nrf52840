@@ -1,0 +1,738 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T14:30:30",
+    "ignored_checks": [
+        {
+            "description": "Thermal relief connection to zone incomplete",
+            "key": "starved_thermal"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard",
+            "key": "malformed_courtyard"
+        },
+        {
+            "description": "Board has malformed outline",
+            "key": "invalid_outline"
+        },
+        {
+            "description": "Solder mask aperture bridges items with different nets",
+            "key": "solder_mask_bridge"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "key": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "key": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "key": "silk_edge_clearance"
+        },
+        {
+            "description": "Text height out of range",
+            "key": "text_height"
+        },
+        {
+            "description": "Text thickness out of range",
+            "key": "text_thickness"
+        },
+        {
+            "description": "Padstack is questionable",
+            "key": "padstack"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint not found in libraries",
+            "key": "lib_footprint_issues"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [
+        {
+            "description": "Vault:CAPC0603(1608)100_L doesn't match footprint given by symbol (CAPC0603(1608)100_L)",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 131.143455,
+                        "y": 107.240035
+                    },
+                    "uuid": "c70a2317-2171-4fd5-84bc-7c0af152ea83"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:CAPC1005X55X25ML05T10 doesn't match footprint given by symbol (CAPC1005X55X25ML05T10)",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 133.429455,
+                        "y": 102.388635
+                    },
+                    "uuid": "7e8bf923-fa5f-4a14-8d5f-87850fe81584"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:CAPC0603(1608)100_L doesn't match footprint given by symbol (CAPC0603(1608)100_L)",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 135.207455,
+                        "y": 108.510035
+                    },
+                    "uuid": "1accea5b-a403-404f-a4db-0e676f88a313"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:CAPC0603(1608)100_L doesn't match footprint given by symbol (CAPC0603(1608)100_L)",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 128.882855,
+                        "y": 106.535435
+                    },
+                    "uuid": "64420c58-e0ea-4ec1-96f4-df6b8278b8ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:CAPC0603(1608)100_L doesn't match footprint given by symbol (CAPC0603(1608)100_L)",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 127.104855,
+                        "y": 105.163835
+                    },
+                    "uuid": "78ba160a-34fa-4994-ac69-944ebf3d4ef6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:FP-SM02B-SRSS-TB_LF_SN-0 doesn't match footprint given by symbol (FP-SM02B-SRSS-TB_LF_SN-0)",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 133.891375,
+                        "y": 89.429035
+                    },
+                    "uuid": "bdc2f2b9-216a-4265-8df9-82635ae25cc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:FP-LQM21PH_G0-IPC_C doesn't match footprint given by symbol (FP-LQM21PH_G0-IPC_C)",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 128.631455,
+                        "y": 102.972035
+                    },
+                    "uuid": "fc1d6c5e-6ef5-42c2-9295-51ffd4e53a4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:RESC0402(1005)_L doesn't match footprint given by symbol (RESC0402(1005)_L)",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 132.667455,
+                        "y": 108.510035
+                    },
+                    "uuid": "699d4677-9c1f-4c1a-99fb-3e1af2c8754d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:RESC1005X40X25ML05T05 doesn't match footprint given by symbol (RESC1005X40X25ML05T05)",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 131.016455,
+                        "y": 104.827035
+                    },
+                    "uuid": "967988a4-b431-4992-b445-ce2fb9a95b2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:RESC1005X40X25LL05T10 doesn't match footprint given by symbol (RESC1005X40X25LL05T10)",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 135.531455,
+                        "y": 102.472035
+                    },
+                    "uuid": "beb74bd1-13c7-41bb-8ac2-fafc6f6ff93e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:RESC0402(1005)_L doesn't match footprint given by symbol (RESC0402(1005)_L)",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 134.521655,
+                        "y": 102.541035
+                    },
+                    "uuid": "f00fdd36-0ec6-4a88-a40b-a394e563cb0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:QFN50P300X300X100-17N doesn't match footprint given by symbol (QFN50P300X300X100-17N)",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 133.952525,
+                        "y": 105.713905
+                    },
+                    "uuid": "db6eeedb-0daa-4697-8960-07237b923704"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:CAPC0402(1005)60_L doesn't match footprint given by symbol (CAPC0402(1005)60_L)",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 134.101375,
+                        "y": 100.239025
+                    },
+                    "uuid": "a276e55f-5762-4dfb-af90-2fa3c33b9b16"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:CAPC0402(1005)60_L doesn't match footprint given by symbol (CAPC0402(1005)60_L)",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 117.881375,
+                        "y": 103.989035
+                    },
+                    "uuid": "26aa813d-8fb6-4815-bfdd-efcfca187214"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:CAPC0402(1005)60_L doesn't match footprint given by symbol (CAPC0402(1005)60_L)",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 117.246375,
+                        "y": 98.194035
+                    },
+                    "uuid": "280934d5-c251-45fb-8903-f8f703af9bae"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:513389873 doesn't match footprint given by symbol (513389873)",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 126.631465,
+                        "y": 97.212945
+                    },
+                    "uuid": "11dacee6-622e-4549-898a-f8519f570f3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:FP-LGA-14L-DM00249496-MFG doesn't match footprint given by symbol (FP-LGA-14L-DM00249496-MFG)",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 118.528005,
+                        "y": 101.292235
+                    },
+                    "uuid": "7ffdca6f-e768-45ff-b877-d8f14547367e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:ONSC-SOD-523-2-502-01_V doesn't match footprint given by symbol (ONSC-SOD-523-2-502-01_V)",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 130.469375,
+                        "y": 112.944035
+                    },
+                    "uuid": "a1375308-3f4b-4451-8d1a-d93763aba064"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:FP-APHF1608LSEEQBDZGKC-MFG doesn't match footprint given by symbol (FP-APHF1608LSEEQBDZGKC-MFG)",
+            "items": [
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 126.639055,
+                        "y": 102.821035
+                    },
+                    "uuid": "cf430929-0461-40d5-bd52-d74e30422f85"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:RESC1005X40X25LL05T10 doesn't match footprint given by symbol (RESC1005X40X25LL05T10)",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 128.242835,
+                        "y": 97.292445
+                    },
+                    "uuid": "ce625896-407a-4675-9f40-f3a3dc359207"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:RESC1005X40X25LL05T10 doesn't match footprint given by symbol (RESC1005X40X25LL05T10)",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 128.231455,
+                        "y": 98.372035
+                    },
+                    "uuid": "2f2479ff-e09e-4fad-93b9-9c46f6387b68"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:RESC1005X40X25LL05T10 doesn't match footprint given by symbol (RESC1005X40X25LL05T10)",
+            "items": [
+                {
+                    "description": "Footprint R12",
+                    "pos": {
+                        "x": 128.231455,
+                        "y": 99.472035
+                    },
+                    "uuid": "43597020-d057-484e-b65d-9e5c6679768e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:CAPC0402(1005)60_L doesn't match footprint given by symbol (CAPC0402(1005)60_L)",
+            "items": [
+                {
+                    "description": "Footprint C16",
+                    "pos": {
+                        "x": 120.756365,
+                        "y": 99.604035
+                    },
+                    "uuid": "197a63a9-97ac-4638-a210-b63432e22101"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:CAPC0402(1005)60_L doesn't match footprint given by symbol (CAPC0402(1005)60_L)",
+            "items": [
+                {
+                    "description": "Footprint C22",
+                    "pos": {
+                        "x": 128.186295,
+                        "y": 91.014235
+                    },
+                    "uuid": "ff692410-fa3a-4bc6-abf0-29ad692d6302"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:CAPC1005X55X25ML05T10 doesn't match footprint given by symbol (CAPC1005X55X25ML05T10)",
+            "items": [
+                {
+                    "description": "Footprint C25",
+                    "pos": {
+                        "x": 128.386295,
+                        "y": 90.014235
+                    },
+                    "uuid": "e2a5767b-d78e-43ea-97cb-1c5d967a55d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:ONSC-SOD-523-2-502-01_V doesn't match footprint given by symbol (ONSC-SOD-523-2-502-01_V)",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 130.474375,
+                        "y": 103.991635
+                    },
+                    "uuid": "3475b4ce-82ff-45d5-9547-004dfda49e87"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:ONSC-SOD-523-2-502-01_V doesn't match footprint given by symbol (ONSC-SOD-523-2-502-01_V)",
+            "items": [
+                {
+                    "description": "Footprint D3",
+                    "pos": {
+                        "x": 129.121375,
+                        "y": 94.529035
+                    },
+                    "uuid": "daf2d132-c970-4bf0-a020-65d066e82879"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:ONSC-SOD-523-2-502-01_V doesn't match footprint given by symbol (ONSC-SOD-523-2-502-01_V)",
+            "items": [
+                {
+                    "description": "Footprint D5",
+                    "pos": {
+                        "x": 125.586375,
+                        "y": 90.279035
+                    },
+                    "uuid": "941c4a37-b040-4336-81d0-2fbb0a1c3d71"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:ONSC-SOD-523-2-502-01_V doesn't match footprint given by symbol (ONSC-SOD-523-2-502-01_V)",
+            "items": [
+                {
+                    "description": "Footprint D6",
+                    "pos": {
+                        "x": 120.501375,
+                        "y": 109.739035
+                    },
+                    "uuid": "0a97f11a-3ca3-4481-ba87-8056bbf5cff0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:ONSC-SOD-523-2-502-01_V doesn't match footprint given by symbol (ONSC-SOD-523-2-502-01_V)",
+            "items": [
+                {
+                    "description": "Footprint D7",
+                    "pos": {
+                        "x": 123.514775,
+                        "y": 106.684035
+                    },
+                    "uuid": "168befc4-7458-4b11-ab85-25d09f66b577"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:ONSC-SOD-523-2-502-01_V doesn't match footprint given by symbol (ONSC-SOD-523-2-502-01_V)",
+            "items": [
+                {
+                    "description": "Footprint D8",
+                    "pos": {
+                        "x": 122.854375,
+                        "y": 103.991635
+                    },
+                    "uuid": "e62391ef-a145-46ed-b197-0584cb931a0f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:814-22-008-30-001101-Footprint-1 doesn't match footprint given by symbol (814-22-008-30-001101-Footprint-1)",
+            "items": [
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 130.474375,
+                        "y": 106.691035
+                    },
+                    "uuid": "9ddc8a5a-4358-4961-8be4-86a05dbf3ab8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:RESC1005X40X25ML05T05 doesn't match footprint given by symbol (RESC1005X40X25ML05T05)",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 133.201375,
+                        "y": 96.739035
+                    },
+                    "uuid": "e95a24e1-c0ef-4c8e-92bc-18d40d0525eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:RESC1005X40X25ML05T05 doesn't match footprint given by symbol (RESC1005X40X25ML05T05)",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 131.801375,
+                        "y": 100.739035
+                    },
+                    "uuid": "ec7e0dd2-ecb4-4992-83d0-8654c60f0b4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:RESC1005X40X25LL05T10 doesn't match footprint given by symbol (RESC1005X40X25LL05T10)",
+            "items": [
+                {
+                    "description": "Footprint R13",
+                    "pos": {
+                        "x": 129.458375,
+                        "y": 88.777035
+                    },
+                    "uuid": "d2d8e446-6be0-43ea-acc4-07f760904cd2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Vault:FP-EVP-AAU02Q-MFG doesn't match footprint given by symbol (FP-EVP-AAU02Q-MFG)",
+            "items": [
+                {
+                    "description": "Footprint SW2",
+                    "pos": {
+                        "x": 129.458375,
+                        "y": 89.920035
+                    },
+                    "uuid": "34c5153a-1f0f-47c0-8e4c-11fc5f04551d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing footprint TP1 (SDA)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint TP2 (SCL)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "No pad found for pin 61 (GND) in schematic",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 122.059595,
+                        "y": 93.652535
+                    },
+                    "uuid": "42c09524-883a-4517-bce4-2f4c1dd26911"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No pad found for pin 62 (GND) in schematic",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 122.059595,
+                        "y": 93.652535
+                    },
+                    "uuid": "42c09524-883a-4517-bce4-2f4c1dd26911"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No pad found for pin 63 (GND) in schematic",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 122.059595,
+                        "y": 93.652535
+                    },
+                    "uuid": "42c09524-883a-4517-bce4-2f4c1dd26911"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No pad found for pin 64 (GND) in schematic",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 122.059595,
+                        "y": 93.652535
+                    },
+                    "uuid": "42c09524-883a-4517-bce4-2f4c1dd26911"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No pad found for pin 65 (GND) in schematic",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 122.059595,
+                        "y": 93.652535
+                    },
+                    "uuid": "42c09524-883a-4517-bce4-2f4c1dd26911"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No pad found for pin 66 (GND) in schematic",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 122.059595,
+                        "y": 93.652535
+                    },
+                    "uuid": "42c09524-883a-4517-bce4-2f4c1dd26911"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No pad found for pin 67 (GND) in schematic",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 122.059595,
+                        "y": 93.652535
+                    },
+                    "uuid": "42c09524-883a-4517-bce4-2f4c1dd26911"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "PPG_Processing_Unit.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}
