@@ -1630,7 +1630,7 @@
         "uuid": "950da8ef-85b1-42e7-92e0-6703c50222a0"
       }
     ],
-    "used_designators": "#GND3,#GND7,#GND9,#PWR1-69,C1-3,C7,C16,C36-37,D2,D9,GND1,P0.35,R1,R18-20,SW3,TP3,U8,U10",
+    "used_designators": "#GND3,#GND7,#GND9,#PWR1-69,C1-3,C7,C16,C36-37,D2,D9,GND1-2,P0.35,R1,R10,R18-20,SW3,TP3,U8,U10",
     "variants": [
       {
         "name": "v1"
